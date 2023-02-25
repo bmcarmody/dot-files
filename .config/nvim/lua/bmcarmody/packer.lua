@@ -4,21 +4,19 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-    -- Packer can manage itself
     use 'wbthomason/packer.nvim'
-
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-
-    use { "catppuccin/nvim", 
-    as = "catppuccin", 
-    config = function() 
-        vim.cmd('colorscheme catppuccin') 
-    end }
-
+    use {
+        "catppuccin/nvim",
+        as = "catppuccin",
+        config = function()
+            vim.cmd('colorscheme catppuccin')
+        end
+    }
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
@@ -48,8 +46,8 @@ return require('packer').startup(function(use)
     use {
         'nvim-tree/nvim-tree.lua',
         requires = {
-            'nvim-tree/nvim-web-devicons', -- optional, for file icons
-        },
-        tag = 'nightly' -- optional, updated every week. (see issue #1193)
+            'nvim-tree/nvim-web-devicons',       },
+        tag = 'nightly'
     }
+    use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
 end)
