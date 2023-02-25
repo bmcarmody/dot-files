@@ -50,4 +50,5 @@ return require('packer').startup(function(use)
         tag = 'nightly'
     }
     use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
+    use('github/copilot.vim')
 end)
