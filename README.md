@@ -24,8 +24,8 @@ I've put a lot of time and effort into creating this so feel free to take inspri
 **Fira Code Nerd Font** - https://www.nerdfonts.com/font-downloads
 
 ## Usage
-1. Clone repository to `/{User}/.config` - ensure that you don't have any duplicate
-files as this might override their configurations
+1. Clone this repository and migrate the files to your `$HOME` directory - ensure 
+that you don't have any duplicate files as this might override their configurations
 2. Source the `.config/nvim/init.lua` file - `:so` from within `Nvim`
 3. Run `:PackerSync`
 4. :tada: Enjoy all the power that rests at your fingertips
