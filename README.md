@@ -19,6 +19,8 @@ I've put a lot of time and effort into creating this so feel free to take inspri
 
 **Packer** (Package manager for nvim plugins) - https://github.com/wbthomason/packer.nvim
 
+**Ripgrep** (Telescope dependency) - https://github.com/BurntSushi/ripgrep
+
 **Tmux** - `brew install tmux`
 
 **Tpm** (Packer manager for tmux) - https://github.com/tmux-plugins/tpm
