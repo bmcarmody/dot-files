@@ -17,7 +17,13 @@ I've put a lot of time and effort into creating this so feel free to take inspri
 
 **Nvim** (v9.0+) - `brew install neovim`
 
+**Packer** (Package manager for nvim plugins) - https://github.com/wbthomason/packer.nvim
+
+**Ripgrep** (Telescope dependency) - https://github.com/BurntSushi/ripgrep
+
 **Tmux** - `brew install tmux`
+
+**Tpm** (Packer manager for tmux) - https://github.com/tmux-plugins/tpm
 
 **Alacritty** - https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 
@@ -28,6 +34,8 @@ I've put a lot of time and effort into creating this so feel free to take inspri
 ## Usage
 1. Clone this repository and migrate the files to your `$HOME` directory - ensure 
 that you don't have any duplicate files as this might override their configurations
-2. Source the `.config/nvim/init.lua` file - `:so` from within `Nvim`
-3. Run `:PackerSync`
-4. :tada: Enjoy all the power that rests at your fingertips
+2. Open a tmux session - `tmux`
+3. Install tmux plugins by entering `<C-a>I`
+4. Source the `.config/nvim/init.lua` file - `:so` from within `Nvim`
+5. Run `:PackerSync`
+6. :tada: Enjoy all the power that rests at your fingertips
