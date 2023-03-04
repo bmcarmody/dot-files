@@ -21,6 +21,8 @@ I've put a lot of time and effort into creating this so feel free to take inspri
 
 **Alacritty** - https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 
+**Catppuccin** (For Alacritty theming) - https://github.com/catppuccin/alacritty
+
 **Fira Code Nerd Font** - https://www.nerdfonts.com/font-downloads
 
 ## Usage
