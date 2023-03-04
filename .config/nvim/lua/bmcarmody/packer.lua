@@ -51,9 +51,15 @@ return require('packer').startup(function(use)
     }
     use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
     use('github/copilot.vim')
-    -- install without yarn or npm
     use({
         "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,
     })
+    use {
+        "folke/trouble.nvim",
+        requires = "nvim-tree/nvim-web-devicons",
+        config = function()
+            require("trouble").setup {}
+        end
+    }
 end)
