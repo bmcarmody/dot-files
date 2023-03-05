@@ -62,4 +62,10 @@ return require('packer').startup(function(use)
             require("trouble").setup {}
         end
     }
+    use {
+        'glepnir/dashboard-nvim',
+        event = 'VimEnter',
+        config = function() require('bmcarmody/dashboard') end,
+        requires = {'nvim-tree/nvim-web-devicons'}
+    }
 end)
