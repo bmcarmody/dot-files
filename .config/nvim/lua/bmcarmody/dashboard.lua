@@ -29,5 +29,3 @@ require('dashboard').setup {
         },
     },
 }
-
-vim.cmd('Dashboard')
