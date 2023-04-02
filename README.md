@@ -4,15 +4,15 @@
 and general programming. I use these tools on a daily basis, both for personal
 and professional development.
 
-This development environment uses a combination of powerful tools and plugins to
-enhance my developer productivity. Some of the key components are Tmux and
+Some of the key components are Tmux and
 Alacritty. I have these tools setup to work seamlessly together to provide an efficient
 and powerful development setup, all without me having to take my hands off the
 keyboard!
 
 I've put a lot of time and effort into creating this so feel free to take inspriation!
 
-**Note** - My Neovim config has it's own repository (https://github.com/bmcarmody/nvim_config) Feel free to check that out as well!
+**Note**: My Neovim config has it's own repository (https://github.com/bmcarmody/nvim_config)
+Feel free to check that out as well!
 
 ## Requirements
 
