@@ -16,7 +16,7 @@ I've put a lot of time and effort into creating this so feel free to take inspri
 
 ## Requirements
 
-Just so I don't forget how to get this all working next time I get a new laptop
+_Just so I don't forget how to get this all working next time I get a new laptop_
 
 **Tmux** - `brew install tmux`
 

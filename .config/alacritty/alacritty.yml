@@ -1,17 +1,10 @@
 env:
   TERM: xterm-256color
 import:
-  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+  - ~/.config/alacritty/tokyonight_storm.yml
 # Font config:
 font:
   normal:
     family: FiraCode Nerd Font Mono
     style: Retina
   size: 14.0
-key_bindings:
-  # Mappings for barbar
-  - { key: D, mods: Alt, chars: "\ed" }
-  - { key: P, mods: Alt, chars: "\ep" }
-  - { key: C, mods: Alt, chars: "\ec" }
-  - { key: Comma, mods: Alt, chars: "\e," }
-  - { key: Period, mods: Alt, chars: "\e." }
